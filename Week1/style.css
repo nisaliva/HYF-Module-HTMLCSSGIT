@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #5b5b5b;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    color:#696969;
+    font-weight: 400;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: grey;
+    font-weight: 400;
+    padding-left:2em;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  /* header */
+  .header-main {
+    background-color: #FAEBD7;
+    position: fixed;
+    height: 3em;
+    z-index: 1;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px;
+  }
+  
+  .header-logo {
+    margin: auto;
+    width: 4%;
+    background-color: #696969;
+    float: left;
+    height: 3em;
+    text-align: center;
+  }
+  
+  .header-logo a{
+    text-decoration:none;
+    font-size:1.8em;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .header-name {
+    float: left;
+    padding-left: 1em;
+    color: #696969;
+  }
+  
+  .header-name p {
+    font-size: 1em;
+  }
+  
+  .navigation-bar {
+    margin-bottom: 0.2em;
+    float: right;
+    padding-right: 1em;
+  }
+  
+  .navigation-bar li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  .navigation-bar li a {
+    color: #696969;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  
+  .navigation-bar li a:hover {
+    color: #000000;
+  }
+  /* end header */
+  
+  /* container */
+  .container{
+    width: 100%;
+    text-size-adjust: 100%;
+    margin-top: 0 auto;
+  }
+  /* end container */
+  
+  /* banner */
+  .banner{
+    margin: auto;
+    width: 100%;
+    height:500px;
+  }
+  
+  .banner-title{
+    margin: auto;
+    font-size: 4.5em;
+    padding-top: 40%;
+    padding-left: 35%;
+    text-decoration: underline;
+  }
+  
+  
+  .banner-image img{
+    width:100%;
+  }
+  /* end banner */
+  
+  .foto img{
+   width:200px;
+   border-radius: 50%;
+   border: 2px solid;
+    
+  }
+  
+  /* row */
+  .row{
+    width:100%;
+    overflow: hidden;
+  }
+  /* end row */
+  
+  /* about */
+  #about {
+    background-color: #FFFAFA;
+    padding-top:30em;
+    padding-bottom:2em;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  #about p {
+    text-align:center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.2em;
+  }
+  /* end about */
+  
+  /* table */
+  
+  #table-1 {
+   
+    width: 100%;
+    height:30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width:60%;
+    background-color: #FFFAF0;
+    box-sizing: border-box;
+  }
+  
+  tr:nth-of-type(odd) {
+    background-color: #D3D3D3;
+  }
+  
+   td {
+    padding:3px;
+    border-collapse: collapse;  
+  }
+  /* end table */
+  
+  #education, #works, #languages, #computer-skills, #hobbies {
+    background-color: #FAEBD7;
+    padding-top:2em;
+    padding-bottom:2em;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  #about, #education, #works, #languages, #computer-skills, #hobbies, p {
+    font-size: 18px;
+  }
+  
+  #works {
+    background-color: #EEEDE4;
+  }
+  
+  #education {
+    background-color: #FFFAFA;
+  }
+  /* languages */
+  #languages {
+    background-color: #EEEDE4;
+   
+  }
+  /* end languages */
+  
+  /* computer skills */
+  #computer-skills {
+    background-color: #FFFAFA;
+   
+  }
+  
+  #hobbies {
+    background-color: #EEEDE4;
+   
+  }
+  
+  /* end computer skills */
+  
+  /* contact */
+  #contact {
+    background-color: #FFFAFA;
+    padding-top:2em;
+    padding-bottom:2em;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .contact-info {
+    padding-top:2em;
+  }
+  
+  .contact-info p {
+    font-size: 1.5em;
+  }
+  
+  .contact-info a {
+   color: #000000;
+  }
+  
+  .social {
+    padding-top:1em;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: grey;
+    padding: 0.5em;
+    font-size: 3em;
+  }
+  
+  .social-links li {
+    display: inline-block;
+  }
+  /* end contact */
+  
+  /* footer */
+  .footer {
+   background-color: #FAEBD7;
+   position: relative;
+   text-align: center;
+   padding: 2em 1.5em;
+  }
+  /* end footer */
