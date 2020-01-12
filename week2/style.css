@@ -60,6 +60,7 @@ ul {
     display: block;
     list-style-type:none;
     margin-left: 2%; 
+    margin-right: 3%;
 }
 
 img {
@@ -140,6 +141,7 @@ img {
   align-items: stretch;
   align-content: space-between;
   text-align: center;
+
 
 }
 
