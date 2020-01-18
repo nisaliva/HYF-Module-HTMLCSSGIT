@@ -1,0 +1,603 @@
+body, h1, h2, p, ul, ol, li, table, form, button, div, img, .topTaskNav{
+    border: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: top;
+}
+
+body {
+    display: block;
+    font-family: "RO Sans",Calibri,sans-serif;
+    background-color: #f3f3f3;
+    list-style: none;
+    text-align: left;
+}
+/* header */
+
+header {
+    background-color: #fff;
+    position: relative;
+}
+
+.logo .row img {
+    display: inline-block;
+    margin-left: -25px;
+ }
+
+.logo {
+    padding: 0 48%;
+}
+
+/* navigation */
+
+#navBar {
+    background-color: #01689b;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 70px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+#navBar ul li {
+    padding-right: 20px;
+}
+
+#navBar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navBar a:hover {
+    text-decoration: underline;
+}
+
+.navFirst{
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order:1;
+    align-items:center;
+    text-decoration:none;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.mainNav{
+    order: 3;
+    width: auto;
+}
+
+#searchForm {
+    position: absolute;
+    width: 30%;
+    top:auto;
+    right: 10%;
+    z-index: 9999;
+    order:2;
+    bottom: -130px;
+}
+
+#search-form{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+  
+#searchForm input {
+    width: 80%;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    opacity: 0.9;
+}
+  
+#searchForm button {
+    width: 15%;
+    padding: 10px;
+    margin-left: 0px;
+    border: 1px black;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-left: none;
+}
+
+.mainNav ul {
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
+    font-size: 1.3rem;
+}
+
+/* banner */
+
+.topTask {
+    position: relative;
+    width: 100%;
+}
+
+.topTask .row1{
+    background-image: url(images/hardlopers-in-actie-in-haarlem.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+}
+
+.topTaskNav ul {
+    list-style-type: none;
+}
+.topTaskNav li {
+    list-style-type: none;
+    line-height: 1.1rem;
+}
+
+.topTaskNav {
+    display: block;
+    position: relative;
+    background: white;
+    width: 32%;
+    margin:3%;
+    height: auto;
+    padding: 1%;
+    text-align: left;
+}
+  
+.topTaskNav h2 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+  
+.topTaskNav li {
+    font-size: 1.2rem;
+    padding: 3%;
+}
+  
+.topTaskNav a {
+    text-decoration: none;
+    color: #01689b;
+    font-weight: bold;
+}
+  
+.topTaskNav a:hover {
+    text-decoration: underline;
+}
+  
+.topTaskNav li::before {
+    color: #01689b;
+    content: '>';
+    margin: 0 3% 2% 0;
+    font-weight: bolder;
+}
+
+.slide {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+.slide .copyright {
+    font-size: 0.9rem;
+}
+
+/* .editorialNav */
+
+.editorialNav {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 2% 8%; */
+    line-height: 200%;
+}
+
+.editorialNav row{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.editorialNav h3:hover {
+    text-decoration: underline;
+}
+  
+.editorialNav p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 50;
+}
+
+.fourItems ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content{
+  width: 100%;
+  padding: 2%;
+  justify-content: left;
+}
+
+.content h3{
+    font-size: 1.7rem;
+}
+
+.navItem {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #01689b;
+    width: 21%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0.5%;
+    box-sizing: border-box;
+    line-height: 1.7rem;
+}
+  
+.navItem a {
+    text-decoration: none;
+    color: #01689b;
+    font-size: 1.5rem;
+}
+
+.fullWidthSec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    padding: 0 6%;
+}
+  /* spot */
+.spot {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.spot a {
+    text-decoration: none;
+}
+
+.brick h3 {
+    color: #01689b;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    word-break: break-word;
+}
+
+  /* brick */
+.brick {
+    width: 30%;
+    margin: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.brick h3 {
+    font-size: 1.75rem;
+    margin-top: 2%;
+}
+
+.brick h3:hover {
+    text-decoration: underline;
+}
+
+.brick-image img {
+    width: 100%;
+    position: relative;
+}
+
+.brick-text {
+    margin-top: 2%;
+    font-size: 0.9rem;
+    color: #000000;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+.line {
+    width: 85%;
+    color:#e1e1e1;
+}
+
+.container {
+    background: #ffffff;
+    padding-top: 4%;
+    width: 100%;
+}
+
+.nieuws {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.news-brick {
+  width: 31%;
+  padding: 1;
+}
+
+.news-brick h3 {
+    font-weight:  normal;
+}
+
+.news-brick a {
+    text-decoration: none;
+    color: #01689b;
+    font-size: 1.4rem;
+}
+
+.news-brick a h3:hover {
+    text-decoration: underline;
+}
+
+.nieuws .brick a {
+  text-decoration: none;
+} 
+
+.news-brick .publDate {
+    font-weight: bold;
+}
+
+.nieuws .more {
+    margin-top: 5%;
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nieuws .more::before {
+    color: #01689b;
+    content: '>';
+    margin-right: 1%;
+    font-weight: bolder;
+}
+
+.nieuws .more:hover{
+    text-decoration: underline;
+}
+
+.brick-banner {
+    width: 92%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact_box {
+    font-size: 1.8rem;
+    font-family: "RO Sans",Calibri,Verdana,sans-serif;
+    width: 31%;
+    height: auto;
+    border: 3px solid #b2d7ee;
+    padding: 10px;
+    margin: 20px;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+.contact_box .blue{
+    color: #1b5e84;
+    font-weight: bold;  
+}
+
+.contact_box .red{
+    color: #a90061;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer .container-1 { 
+    background: #01689b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 3% 5%;
+    line-height: 200%;
+  } 
+  
+  /* over */
+  .over {
+    font-family: 'RO Serif';
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    width: 50%;
+    padding: 2%;
+    margin: 2%;
+  }
+  
+  .column {
+    width: 20%;
+    color: white;
+  }
+  
+  .column:nth-of-type(1) {
+    width: 60%;
+  }
+  
+  .column a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  .column a:hover {
+    text-decoration: underline;
+  }
+
+  .column h2 {
+    font-size: 1.7rem;
+    margin: 8px 0 5px 0;
+  }
+
+  /* languages */
+
+  .languages {
+    background: #ffffff;
+  }
+
+  .container-2{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .languages ul{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+    list-style-type: none;
+  }
+  
+  .languages ul li {
+    border: 1px solid #b2d7ee;
+    padding: 1%;
+    text-align: center;
+  }
+    
+  
+  .languages ul li a {
+    color: #01689b;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .languages .selected {
+    border: none;
+    font-weight: bolder;
+    color: black;
+  }
+
+  #navBar .icon{
+      display: none;
+  }
+
+  @media (max-width: 765px) {
+    #navBar .icon{
+        display: block;
+    }
+
+    #topMenu{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .mainNav{
+        width: 100%;
+    }
+
+    .mainNav ul{
+        width: 100%;
+        display: block;
+    }
+
+    .mainNav ul li{
+        border-bottom: 1px solid gray;
+        width: 90%;
+        line-height: 4rem;
+    }
+
+
+    .mainNav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    #searchForm {
+        width: 100%;
+        order: 2;
+        position: relative;
+        margin-bottom: 5px;
+        bottom: -20px;
+        right: 0;
+        align-items: center;
+    }
+
+    #topMenu {
+        display: flex;
+        flex-direction: column;
+        line-height: 1em;
+    }
+
+    .topTaskNav {
+        display: block;
+        position: relative;
+        background: white;
+        width: 90%;
+        margin: 4%;
+        margin-bottom: 10%;
+        height: auto;
+        padding: 1%;
+        text-align: left;
+    }
+
+    .navItem{
+        width: 100%;
+    }
+
+    .brick{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .spot{
+        flex-direction: column;
+    }
+
+    .fullWidthSec{
+        padding: 0;
+    }
+
+    .news-brick{
+        width: 100%;
+    }
+
+    .contact_box{
+        width:100%;
+        font-size: 1.2rem;
+    }
+
+    .over{
+        width:100%;
+    }
+
+    .column{
+        width: 45%;
+    }
+
+    .container-2{
+        margin: 0;
+    }
+  }
+  
+  @media screen and (min-width: 765px) and (max-width: 1100px) {
+    .contact_box{
+        width:45%;
+        font-size: 1.2rem;
+    }
+  }
